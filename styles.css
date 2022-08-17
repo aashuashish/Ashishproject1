@@ -1,0 +1,144 @@
+
+
+body{
+	overflow-x:hidden;
+	box-sizing: border-box;
+}
+
+
+.carousel-item{
+	height: 500px;
+}
+
+/*.card-container{
+	padding: 10px 20px;
+}*/
+
+.card-container .card{
+	margin:auto;
+}
+
+.service-container{
+	margin: 100px 50px 50px;
+	text-align: center;
+}
+
+.service-container h2{
+	margin: 40px;
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 10px;
+}
+
+.card-container .card .btn{
+	width: 100%;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+
+.container{
+	margin-top: 2rem;
+	width: 100%;
+}
+
+
+
+.about-container{
+	margin: 100px 50px 50px;
+	width: 85%;
+	margin: auto;
+}
+
+.about-container h2{
+	border-bottom: 2px solid lightgray;
+}
+
+.gallery_container{
+	margin: 100px 50px 50px;
+	text-align: center;
+}
+
+.gallery_container h2{
+	margin: 40px;
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 10px;
+}
+
+.img_sets{
+	width: 100%;
+	height: 16rem;
+	margin-top: 2rem;
+	text-align: center;
+	padding-bottom: 0.5rem;
+}
+
+.image{
+	box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+	padding: 4px;
+	margin:0 3%;
+	width: 36%;
+	height: inherit;
+}
+
+.image:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.more-btn{
+	float: right;
+	padding: 5px 1.5rem;
+	margin-top: 40px;
+	margin-right: 11%;
+	border: 2px solid red;
+	background-color: white;
+	color: red;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.more-btn:hover{
+	background-color: red;
+	color: white;
+}
+
+
+
+.form-container{
+	margin: 150px auto 50px;
+	width: 80vw;
+}
+
+.form-container form{
+	width: 80%;
+	margin: auto;
+}
+
+.form-container h2{
+	margin: 40px;
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.form-container form label{
+	font-weight: bold;
+}
+
+
+
+.foot{
+	margin-top: 50px;
+	padding: 1rem;
+	height: 3.5rem;
+	width: 100%;
+	box-shadow:0px -2px 7px gray ;
+	text-align: center;
+}
+
+.foot-det>p{
+	font-weight: bold;
+}
